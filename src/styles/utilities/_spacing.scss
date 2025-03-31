@@ -1,6 +1,12 @@
 @use "../abstracts" as *;
 
-// create custom classes as needed for margin and padding based on custom sizes in `abstracts/sizes.scss`
+.section {
+  padding-block: $section-padding;
+
+  &-hero {
+    padding-block: $hero-padding;
+  }
+}
 
 .mx-auto {
   margin-inline: auto;

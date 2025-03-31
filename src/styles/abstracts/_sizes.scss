@@ -8,7 +8,10 @@ $sizes: (
   36: 2.25rem,
 );
 
-// Update specific valus for following flex, grid, and container variables as needed
+$hero-padding: 20rem;
+$section-padding: 7rem;
+
+$card-body-padding: 5rem;
 
 $grid-gap: size(24);
 $flex-group-gap: 1rem;

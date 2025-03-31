@@ -1,1 +1,8 @@
-// Root variables
+@use "../abstracts" as *;
+
+:root {
+  font-family: $ff-accent;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: $fw-400;
+}
