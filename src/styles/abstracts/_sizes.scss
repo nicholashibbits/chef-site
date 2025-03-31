@@ -1,0 +1,18 @@
+$sizes: (
+  8: 0.5rem,
+  12: 0.75rem,
+  16: 1rem,
+  20: 1.25rem,
+  24: 1.5rem,
+  32: 2rem,
+  36: 2.25rem,
+);
+
+// Update specific valus for following flex, grid, and container variables as needed
+
+$grid-gap: size(24);
+$flex-group-gap: 1rem;
+
+$container-inline-padding: 1rem;
+$container-max-width: 77.5rem;
+$container-max-width-wide: 1400px;
