@@ -1,10 +1,10 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .container {
   --max-width: #{$container-max-width};
-  --padding: size(16);
+  --padding: 1rem * 2;
 
-  width: min(var(--max-width), 100% - ( var(--padding) * 2) );
+  width: min(var(--max-width), 100% - var(--padding));
   margin-inline: auto;
 }
 
@@ -13,4 +13,3 @@
 }
 
 // create other variations as needed
-

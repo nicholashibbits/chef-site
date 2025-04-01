@@ -12,6 +12,14 @@
   margin-inline: auto;
 }
 
+.hero {
+  padding-block: $hero-padding;
+}
+
+.section {
+  padding-block: $section-padding;
+}
+
 @each $size-name, $size-value in $sizes {
   .margin {
     &-#{$size-name} {
