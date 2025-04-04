@@ -9,8 +9,8 @@ $sizes: (
   48: 3rem,
 );
 
-$hero-padding: 20rem;
-$section-padding: 7rem;
+$hero-padding: clamp(13rem, 15vh, 20rem);
+$section-padding: clamp(3rem, 10vh, 7rem);
 
 $card-body-padding: 5rem;
 
