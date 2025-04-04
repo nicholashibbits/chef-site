@@ -3,7 +3,7 @@ import React from "react";
 function App() {
   return (
     <>
-      <header className="primary-header margin-block-start-24 bg-neutral-900">
+      <header className="primary-header margin-block-start-24">
         <img
           src="assets/logo.svg"
           alt="Chef John Wellington"
