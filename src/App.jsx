@@ -54,7 +54,7 @@ function App() {
                 </picture>
               </div>
               <div className="flow">
-                <header className="section-heading">
+                <header className="section-header">
                   <h2 className="fs-800 ff-accent clr-primary-500">
                     Amazing food without the hassle
                   </h2>
@@ -80,7 +80,7 @@ function App() {
         </section>
         <section className="section bg-neutral-200 text-center">
           <div className="container">
-            <header className="section-heading" data-decoration="true">
+            <header className="section-header" data-decoration="true">
               <h2 className="fs-800 clr-primary-500 ff-accent">
                 We make great food
               </h2>
@@ -135,10 +135,15 @@ function App() {
         <section className="clr-neutral-100 bg-neutral-900" id="meals">
           <div className="container" data-type="wide">
             <header
-              className="section-heading | text-center"
+              className="section-header | text-center"
               data-decoration="true"
             >
-              <h2 className="fs-800">This is a nice big headline</h2>
+              <h2
+                className="fs-800 ff-accent
+              "
+              >
+                This is a nice big headline
+              </h2>
               <p className="fs-600 uppercase">
                 This is a subhead which mentions som interesting things
               </p>
@@ -212,9 +217,12 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="testimonials section" id="testimonials">
+        <section
+          className="testimonials section padding-block-start-48"
+          id="testimonials"
+        >
           <div className="container">
-            <h2 className="clr-primary-500 ff-accent">
+            <h2 className="clr-primary-500 fs-800 ff-accent text-center">
               What our clients are saying about us
             </h2>
 
@@ -244,7 +252,65 @@ function App() {
                   </p>
                 </div>
                 <div className="testimonial__footer | padding-16 bg-neutral-200">
-                  <p className="fs-500 clr-accent-500">John Deer</p>
+                  <p className="fs-500 clr-primary-500">John Deer</p>
+                  <p>Lover of good food</p>
+                </div>
+              </div>
+              <div className="card | box-shadow-1">
+                <picture>
+                  <source
+                    srcSet="assets/testimonial-02.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcSet="assets/testimonial-02.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/testimonial-02.jpg"
+                    alt="A man standing outside, smiling"
+                  />
+                </picture>
+                <div className="card__body">
+                  <p>
+                    John Wellington and his team make the most amazing food.
+                    Every single time I've ordered, I've been blown-away by the
+                    quality. You can tell they only use fresh ingredients and
+                    put a lot of love into every single meal they make! You
+                    really can't ask for anything more, it's always fantastic.
+                  </p>
+                </div>
+                <div className="testimonial__footer | padding-16 bg-neutral-200">
+                  <p className="fs-500 clr-primary-500">John Deer</p>
+                  <p>Lover of good food</p>
+                </div>
+              </div>
+              <div className="card | box-shadow-1">
+                <picture>
+                  <source
+                    srcSet="assets/testimonial-03.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcSet="assets/testimonial-03.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/testimonial-03.jpg"
+                    alt="A man standing outside, smiling"
+                  />
+                </picture>
+                <div className="card__body">
+                  <p>
+                    John Wellington and his team make the most amazing food.
+                    Every single time I've ordered, I've been blown-away by the
+                    quality. You can tell they only use fresh ingredients and
+                    put a lot of love into every single meal they make! You
+                    really can't ask for anything more, it's always fantastic.
+                  </p>
+                </div>
+                <div className="testimonial__footer | padding-16 bg-neutral-200">
+                  <p className="fs-500 clr-primary-500">John Deer</p>
                   <p>Lover of good food</p>
                 </div>
               </div>
