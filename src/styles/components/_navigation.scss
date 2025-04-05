@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 .primary-navigation {
-  --flex-gap: #{size(24)};
+  --flex-columnn-gap: #{size(24)};
 
   ul {
     list-style: none;
