@@ -149,7 +149,7 @@ function App() {
               </p>
             </header>
 
-            <div className="even-columns" data-section="meals">
+            <div className="even-columns">
               <div>
                 <figure className="interactive-figure">
                   <picture>
@@ -231,8 +231,8 @@ function App() {
               What our clients are saying about us
             </h2>
 
-            <div className="even-columns" data-section="testimonials">
-              <div className="card | box-shadow-1">
+            <div className="even-columns">
+              <div className="card box-shadow-1 " data-type="testimonial">
                 <picture>
                   <source
                     srcSet="assets/testimonial-01.avif"
@@ -247,7 +247,7 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card-body text-center padding-48 ">
+                <div className="card-body text-center  ">
                   <p>
                     John Wellington and his team make the most amazing food.
                     Every single time I've ordered, I've been blown-away by the
@@ -261,7 +261,7 @@ function App() {
                   <p>Lover of good food</p>
                 </div>
               </div>
-              <div className="card | box-shadow-1">
+              <div className="card box-shadow-1" data-type="testimonial">
                 <picture>
                   <source
                     srcSet="assets/testimonial-02.avif"
@@ -276,21 +276,21 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card-body text-center padding-48 ">
+                <div className="card-body text-center  ">
                   <p>
-                    John Wellington and his team make the most amazing food.
-                    Every single time I've ordered, I've been blown-away by the
-                    quality. You can tell they only use fresh ingredients and
-                    put a lot of love into every single meal they make! You
-                    really can't ask for anything more, it's always fantastic.
+                    Ilove johne wellington. You really can't ask for anything
+                    more, it's always fantastic.
                   </p>
                 </div>
-                <div className="card-footer text-center | padding-16 bg-neutral-200">
+                <div
+                  className="card-footer text-center padding-16 bg-neutral-200"
+                  data-type="testimonial"
+                >
                   <p className="fs-500 clr-primary-500">John Deer</p>
                   <p>Lover of good food</p>
                 </div>
               </div>
-              <div className="card | box-shadow-1">
+              <div className="card | box-shadow-1" data-type="testimonial">
                 <picture>
                   <source
                     srcSet="assets/testimonial-03.avif"
@@ -305,7 +305,7 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card-body text-center padding-48 ">
+                <div className="card-body text-center  ">
                   <p>
                     John Wellington and his team make the most amazing food.
                     Every single time I've ordered, I've been blown-away by the
@@ -323,9 +323,11 @@ function App() {
           </div>
         </section>
       </main>
-      <footer class="primary-footer section | bg-neutral-900 clr-neutral-100 text-center flow">
-        <div class="container">
-          <p class="fw-bold">Homecooked mealsdelivered straight to your door</p>
+      <footer className="primary-footer section | bg-neutral-900 clr-neutral-100 text-center flow">
+        <div className="container flow">
+          <p className="fw-bold">
+            Homecooked mealsdelivered straight to your door
+          </p>
           <p>©2022 Persronal Chef Services</p>
           <p>
             555 Boulevard Anywhere, Montreal, Quebec, J1S 1S9 | 123-555-1234

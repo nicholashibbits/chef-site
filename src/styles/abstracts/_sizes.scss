@@ -12,7 +12,7 @@ $sizes: (
 $hero-padding: clamp(13rem, 15vh, 20rem);
 $section-padding: clamp(3rem, 10vh, 7rem);
 
-$card-body-padding: 5rem;
+$card-body-padding: clamp(2rem, 2.5vw, 5rem);
 
 $grid-gap: 1.5rem;
 $flex-group-gap: 1rem;
