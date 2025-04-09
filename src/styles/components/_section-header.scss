@@ -4,6 +4,7 @@
   &:has(p) {
     margin-block-end: size(36);
   }
+  
   &:not(:has(p)) {
     margin-block-end: size(36);
   }

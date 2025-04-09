@@ -161,7 +161,7 @@ function App() {
                       alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it"
                     />
                   </picture>
-                  <figcaption>
+                  <figcaption className="padding-32">
                     <h3 className="fs-500 fw-bold uppercase">
                       About this meal
                     </h3>
@@ -184,7 +184,7 @@ function App() {
                       alt="Several steak tacos on a table, along with several limes"
                     />
                   </picture>
-                  <figcaption>
+                  <figcaption className="padding-32">
                     <h3 className="fs-500 fw-bold uppercase">
                       About this meal
                     </h3>
@@ -207,7 +207,7 @@ function App() {
                       alt="Clams being tossed in a pan"
                     />
                   </picture>
-                  <figcaption>
+                  <figcaption className="padding-32">
                     <h3 className="fs-500 fw-bold uppercase">
                       About this meal
                     </h3>
