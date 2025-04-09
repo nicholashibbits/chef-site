@@ -132,14 +132,14 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="clr-neutral-100 bg-neutral-900" id="meals">
+        <section
+          className="section clr-neutral-100 bg-neutral-900 text-center"
+          id="meals"
+        >
           <div className="container" data-type="wide">
-            <header
-              className="section-header | text-center"
-              data-decoration="true"
-            >
+            <header className="section-header" data-decoration="true">
               <h2
-                className="fs-800 ff-accent
+                className="fs-800 ff-accent 
               "
               >
                 This is a nice big headline
@@ -172,57 +172,62 @@ function App() {
                   </figcaption>
                 </figure>
               </div>
-            </div>
 
-            <div>
-              <figure className="interactive-figure">
-                <picture>
-                  <source srcSet="assets/meal-02.avif" type="image/avif" />
-                  <source srcSet="assets/meal-02.webp" type="image/webp" />
-                  <img
-                    src="assets/meal-02.jpg"
-                    loading="lazy"
-                    alt="Several steak tacos on a table, along with several limes"
-                  />
-                </picture>
-                <figcaption>
-                  <h3 className="fs-500 fw-bold uppercase">About this meal</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam egestas egestas dignissim.
-                  </p>
-                </figcaption>
-              </figure>
-            </div>
+              <div>
+                <figure className="interactive-figure">
+                  <picture>
+                    <source srcSet="assets/meal-02.avif" type="image/avif" />
+                    <source srcSet="assets/meal-02.webp" type="image/webp" />
+                    <img
+                      src="assets/meal-02.jpg"
+                      loading="lazy"
+                      alt="Several steak tacos on a table, along with several limes"
+                    />
+                  </picture>
+                  <figcaption>
+                    <h3 className="fs-500 fw-bold uppercase">
+                      About this meal
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam egestas egestas dignissim.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
 
-            <div>
-              <figure className="interactive-figure">
-                <picture>
-                  <source srcSet="assets/meal-03.avif" type="image/avif" />
-                  <source srcSet="assets/meal-03.webp" type="image/webp" />
-                  <img
-                    src="assets/meal-03.jpg"
-                    loading="lazy"
-                    alt="Clams being tossed in a pan"
-                  />
-                </picture>
-                <figcaption>
-                  <h3 className="fs-500 fw-bold uppercase">About this meal</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam egestas egestas dignissim.
-                  </p>
-                </figcaption>
-              </figure>
+              <div>
+                <figure className="interactive-figure">
+                  <picture>
+                    <source srcSet="assets/meal-03.avif" type="image/avif" />
+                    <source srcSet="assets/meal-03.webp" type="image/webp" />
+                    <img
+                      src="assets/meal-03.jpg"
+                      loading="lazy"
+                      alt="Clams being tossed in a pan"
+                    />
+                  </picture>
+                  <figcaption>
+                    <h3 className="fs-500 fw-bold uppercase">
+                      About this meal
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam egestas egestas dignissim.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </section>
         <section
           className="testimonials section padding-block-start-48"
           id="testimonials"
+          data-type="wide"
         >
           <div className="container">
-            <h2 className="clr-primary-500 fs-800 ff-accent text-center">
+            <h2 className="section-header clr-primary-500 fs-800 ff-accent text-center">
               What our clients are saying about us
             </h2>
 
@@ -242,7 +247,7 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card__body">
+                <div className="card-body text-center padding-48 ">
                   <p>
                     John Wellington and his team make the most amazing food.
                     Every single time I've ordered, I've been blown-away by the
@@ -251,7 +256,7 @@ function App() {
                     really can't ask for anything more, it's always fantastic.
                   </p>
                 </div>
-                <div className="testimonial__footer | padding-16 bg-neutral-200">
+                <div className="card-footer text-center | padding-16 bg-neutral-200">
                   <p className="fs-500 clr-primary-500">John Deer</p>
                   <p>Lover of good food</p>
                 </div>
@@ -271,7 +276,7 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card__body">
+                <div className="card-body text-center padding-48 ">
                   <p>
                     John Wellington and his team make the most amazing food.
                     Every single time I've ordered, I've been blown-away by the
@@ -280,7 +285,7 @@ function App() {
                     really can't ask for anything more, it's always fantastic.
                   </p>
                 </div>
-                <div className="testimonial__footer | padding-16 bg-neutral-200">
+                <div className="card-footer text-center | padding-16 bg-neutral-200">
                   <p className="fs-500 clr-primary-500">John Deer</p>
                   <p>Lover of good food</p>
                 </div>
@@ -300,7 +305,7 @@ function App() {
                     alt="A man standing outside, smiling"
                   />
                 </picture>
-                <div className="card__body">
+                <div className="card-body text-center padding-48 ">
                   <p>
                     John Wellington and his team make the most amazing food.
                     Every single time I've ordered, I've been blown-away by the
@@ -309,7 +314,7 @@ function App() {
                     really can't ask for anything more, it's always fantastic.
                   </p>
                 </div>
-                <div className="testimonial__footer | padding-16 bg-neutral-200">
+                <div className="card-footer text-center | padding-16 bg-neutral-200">
                   <p className="fs-500 clr-primary-500">John Deer</p>
                   <p>Lover of good food</p>
                 </div>
