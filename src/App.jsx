@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="section " id="about">
+        <section className="section" id="about">
           <div className="container">
             <div className="even-columns">
               <div>
@@ -149,7 +149,7 @@ function App() {
               </p>
             </header>
 
-            <div className="even-columns">
+            <div className="even-columns" data-section="meals">
               <div>
                 <figure className="interactive-figure">
                   <picture>
@@ -231,7 +231,7 @@ function App() {
               What our clients are saying about us
             </h2>
 
-            <div className="even-columns">
+            <div className="even-columns" data-section="testimonials">
               <div className="card | box-shadow-1">
                 <picture>
                   <source
